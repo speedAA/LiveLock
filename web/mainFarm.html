@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>江湖农场</title>
+    <link rel="stylesheet" href="./css/mainFarm.css" type="text/css"/>
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+        function touser(){
+            window.location.href="userinfo.html";
+        }
+        function torankSys(){
+            window.location.href="rankSys.html";
+        }
+        function tobag(){
+            window.location.href="mypacksack.html";
+        }
+        function recharge(){
+            window.location.href="recharge.html";
+        }
+        function totask(){
+            window.location.href="taskList.html";
+        }
+        function tojiangli() {
+            window.location.href="no_development.html";
+        }
+        function togongshe() {
+            window.location.href="no_development.html";
+        }
+        function tochoujiang() {
+            window.location.href="no_development.html";
+        }
+        function tohuodong() {
+            window.location.href="no_development.html";
+        }
+    </script>
+</head>
+<body style="overflow-x: hidden;overflow-y: hidden">
+<div role="navigation" class="zu-top" data-za-module="TopNavBar">
+    <div class="zg-wrap modal-shifting clearfix" id="zh-top-inner">
+        <div class="info-main">
+            <input type="button" class="zu-top-add-question" id="userinfo" value="个人信息" onclick="touser()">
+            <ul class="info">
+                <li class="info-li">体力：xx</li>
+                <li class="info-li">金币：xx</li>
+                <li class="info-li">钻石：xx（1钻=1元=100金币）</li>
+                <li class="info-li">等级：xx</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="mainframe">
+    <img src="img/quanjing.jpg" class="mapcontain"/>
+    <div class="nongju"><a class="icontext" href="farmshop.html">农具店</a></div>
+    <div class="daoju"><a class="icontext" href="propertyEmpolyerShop.html">道具雇员店</a></div>
+    <div class="caidi"><a class="icontext" href="vegetable.html">菜地</a></div>
+    <div class="exchange"><a class="icontext">农产品交易中心</a></div>
+    <div class="drugstore"><a class="icontext">肥料农药店</a></div>
+    <div class="farmhome"><a class="icontext" href="no_development.html">农家院住宅</a></div>
+    <div class="restaurant"><a class="icontext" href="no_development.html">餐厅</a></div>
+
+</div>
+<div class="rightclean">
+    <ul class="info-r">
+        <li class="info-rli" ><input type="button" value="充值" class="r-button" style="cursor: pointer" onclick="recharge()"/></li>
+        <li class="info-rli" ><input type="button" value="活动" class="r-button" style="cursor: pointer" onclick="tohuodong()"/></li>
+        <li class="info-rli" ><input type="button" value="奖励" class="r-button" style="cursor: pointer" onclick="tojiangli()"/></li>
+        <li class="info-rli" ><input type="button" value="抽奖" class="r-button" style="cursor: pointer" onclick="tochoujiang()"/></li>
+    </ul>
+</div>
+
+<div class="footer">
+    <ul class="info">
+        <li class="info-li" ><input type="button" value="公社" class="j-button" style="cursor: pointer" onclick="togongshe()"/></li>
+        <li class="info-li" ><input type="button" value="排行榜" class="j-button" style="cursor: pointer" onclick="torankSys()"/></li>
+        <li class="info-li" ><input type="button" value="背包" class="j-button" style="cursor: pointer" onclick="tobag()"/></li>
+        <li class="info-li" ><input type="button" value="强化道具" class="j-button" style="cursor: pointer"/></li>
+        <li class="info-li" ><input type="button" value="任务" class="j-button" style="cursor: pointer" onclick="totask()"/></li>
+    </ul>
+</div>
+</body>
+</html>
